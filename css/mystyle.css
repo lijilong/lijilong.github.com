@@ -4,7 +4,7 @@ body  {
     font-size:12px; 
     
 }
-
+.kaiti { font-family:楷体_GB2312,"Times New Roman"; } 
 #box {width:400px; height:300px; margin:100px auto 0;}
 #tab {margin:0; padding:0; height:25px; line-height:24px;}
 #tab li{float:left; margin:0 1px; list-style:none; border:1px solid #999; border-bottom:none; height:24px; width:100px; text-align:center; background:#FFF;}
@@ -13,9 +13,11 @@ a:hover{color:red;}
 #tab_content{width:398px; height:273px; border:1px solid #999; font:bold 4em/273px "微软雅黑", Verdana, Arial, Helvetica, sans-serif; text-align:center; background:#FFF; overflow:hidden;}
 
 
-h1.dabiaoti {
+h1 {
        font-weight: bolder;
        text-align: center;
+        color: red;
+        
        }
 h1#daohang {
        font-size: 12px;
