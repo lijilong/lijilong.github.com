@@ -4,7 +4,8 @@ body  {
     font-size:12px; 
     
 }
-.kaiti { font-family:楷体_GB2312,"Times New Roman"; } 
+p{ font-family:行书体；
+         color:red} 
 #box {width:400px; height:300px; margin:100px auto 0;}
 #tab {margin:0; padding:0; height:25px; line-height:24px;}
 #tab li{float:left; margin:0 1px; list-style:none; border:1px solid #999; border-bottom:none; height:24px; width:100px; text-align:center; background:#FFF;}
@@ -19,17 +20,3 @@ h1 {
         color: red;
         
        }
-h1#daohang {
-       font-size: 12px;
-       font-weight: bolder;
-       text-align: left;
-       }
-.xinwen {
-       font-size: 16px;
-       font-weight:bold;
-       text-align: center;
-       color:green;
-       }
-p {
-       text-align: center;
-       } 
