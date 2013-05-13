@@ -12,3 +12,19 @@ a{font:bold 14px/24px "微软雅黑", Verdana, Arial, Helvetica, sans-serif; col
 a:hover{color:red;}
 #tab_content{width:398px; height:273px; border:1px solid #999; font:bold 4em/273px "微软雅黑", Verdana, Arial, Helvetica, sans-serif; text-align:center; background:#FFF; overflow:hidden;}
 h1 {font-weight: bolder;  text-align: center; color: red;font-family:微软雅黑}
+
+
+.page-down{
+	width:60px;
+	height:37px;
+	background:url("http://baike.baidu.com/cms/s/fangzai512/static/img/page_down.png") 0 0px no-repeat;
+	position:fixed;
+	bottom:30px;
+	right:30px;
+	cursor:pointer;
+	_position:absolute;
+	_top:550px;
+}
+.page-up{
+	background-position:0px -37px;
+}
