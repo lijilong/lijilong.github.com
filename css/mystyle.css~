@@ -4,7 +4,6 @@ body  {
     font-size:14px; 
     
 }
-marquee{scrollamount: 1000;}
 p{ font-family:"华文行凯",Arial,"Comic Sans MS";font-style:italic;font-size:18px;} 
 #box {width:400px; height:300px; margin:100px auto 0;}
 #tab {margin:0; padding:0; height:25px; line-height:24px;}
