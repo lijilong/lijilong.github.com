@@ -7,7 +7,7 @@
       <meta http-equiv="Content-Type" content="text/html;  charset=utf-8"/>   
       <link href="./css/mystyle.css" rel="stylesheet" type="text/css"> 
     </head>
-    <body>
+    <body onclick="findIt(event)">
 <div>
   <marquee behavior = "scroll" scrollamount ="5" onMouseOut = "this.start()" onMouseOver = "this.stop()"> <ul id="tab">
     	<li><a href="./intro/index.html">介绍</a></li>
@@ -15,6 +15,38 @@
         <li><a href="./diary/index.html">日记</a></li>
     </ul></marquee>
 </div>
-      <p>hello github</p>
-      </body>
+<p><span id = 'Text' style = "position:absolute; left:30px; top:30px; font:blod 20pt 'Times Roman'; color:blue; ">hello github</span></p>
+<script>
+  <!--       
+  var finalx; 
+  var finaly; 
+  function findIt(evt){
+     finalx = evt.clientX; 
+     finaly = evt.clientY; 
+      dom = document.getElementById('Text').style; 
+      var x = dom.left; 
+      var y = dom.top ; 
+      x = x.match(/\d+/); 
+      y = y.match(/\d+/); 
+      moveText(x, y); 
+  }
+  function moveText(x, y){
+    if (x != finalx)
+      if(x >= finalx) x = x-1;
+      else x++ ; 
+    if (y != finaly)
+      if (y  >=  finaly) y = y -1 ; 
+      else y++; 
+
+    if ((x!=finalx)||(y!=finaly))
+      {
+        dom.left = x +"px" ; 
+        dom.top = y + "px"; 
+        setTimeout("moveText("+x+", "+y+")", 1); 
+      } 
+    
+  }
+  // -->
+</script>
+</body>
  </html>
